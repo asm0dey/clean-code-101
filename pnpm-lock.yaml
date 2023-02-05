@@ -1,15 +1,31 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-json/file-icons': ^1.1.3
+  '@iconify-json/logos': ^1.1.22
+  '@iconify-json/noto': ^1.1.10
+  '@iconify-json/simple-icons': ^1.1.42
+  '@iconify-json/skill-icons': ^1.1.1
+  '@iconify-json/twemoji': ^1.1.10
+  '@iconify-json/vscode-icons': ^1.1.21
   '@slidev/cli': ^0.40.2
   '@slidev/theme-apple-basic': ^0.20.0
+  '@slidev/theme-default': ^0.21.2
   playwright-chromium: ^1.30.0
 
 dependencies:
   '@slidev/cli': 0.40.2_playwright-chromium@1.30.0
   '@slidev/theme-apple-basic': 0.20.0
+  '@slidev/theme-default': 0.21.2
 
 devDependencies:
+  '@iconify-json/file-icons': 1.1.3
+  '@iconify-json/logos': 1.1.22
+  '@iconify-json/noto': 1.1.10
+  '@iconify-json/simple-icons': 1.1.42
+  '@iconify-json/skill-icons': 1.1.1
+  '@iconify-json/twemoji': 1.1.10
+  '@iconify-json/vscode-icons': 1.1.21
   playwright-chromium: 1.30.0
 
 packages:
@@ -558,15 +574,56 @@ packages:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/file-icons/1.1.3:
+    resolution: {integrity: sha512-TbuY2DCmIzoq/W4gJFGSiGoE8IYGGWwSKevrpggZY7LdqEG4qIR9d8l3tipgkLy91vOfcHmYjPowx9q8JtZ98A==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/logos/1.1.22:
+    resolution: {integrity: sha512-vlkTWWWzQ9eghWaoq2D51jPDJBhn6yvjr4TvRJxVPisIm0yDkvt2l4yq/QPonZBSaKuEXga5omDulJHIcSVR3A==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/noto/1.1.10:
+    resolution: {integrity: sha512-+z12AtMM6NBDTDedYiDl7quDnPKGkg/Ed42O3C0d4nxGbRUEtnQ2huc0nAQ4cMST2uZYDTlbW16EfN3zIGvmMA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify-json/ph/1.1.3:
     resolution: {integrity: sha512-QSzWMGF8GiBPW89RpQ3bEwEjuRWTv/xxskStUpK7tsXlz3qoPTEM5CQxDUpzUmc9luAWViqD/shIUiuNhUeolw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
 
+  /@iconify-json/simple-icons/1.1.42:
+    resolution: {integrity: sha512-9QzE4F8wBK4BD5nzD35KcOwSg0XbIGsMGpPUNWOkSS8PyEVrBby4eQ4BMs2V3tAPdvxYLfyYvHrb29wGqS6hUw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/skill-icons/1.1.1:
+    resolution: {integrity: sha512-jzSqa6Kd8+Q1vbZaUaXDjdRYa0Zo5kTyX1MqdFTyqlJF+cuFuvlj54qAfHrztTt8vYQUlndN34atT9qPmFwVjA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/twemoji/1.1.10:
+    resolution: {integrity: sha512-u3SBtWvh6S1qVXqjnQGlPkfxy1HBAwEFuengwau1NngfOc9vpecbKcxvrd85Egf7hMElH/uYCs/yrMnsbZ7yxA==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/vscode-icons/1.1.21:
+    resolution: {integrity: sha512-GIZXICHLyRVnKtAJtQFR+jrsY5mT5rYvpnG1PSinBix9Mv/1wODpI6LVmIAAhfvmfaXKjNGjuefgdqvKeiCG0Q==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
-    dev: false
 
   /@iconify/utils/2.1.0:
     resolution: {integrity: sha512-ouXv1hQfOKq4k3wxQ2OJBYQ2gXBMeFoUCIiORmuUVUNlSq9oOTzQBF3jpFRb0+/P0bnV+RIoHcbZKufZTlJ16g==}
@@ -884,6 +941,16 @@ packages:
   /@slidev/theme-apple-basic/0.20.0:
     resolution: {integrity: sha512-sjgxAyn63TNHsiwT/Iz2D8IjpuOg/x8l+nG2TTH3zg8XChIo7uYcNNApWH+i5zuBfaNHHUOaGLPaZw5s6fINQg==}
     engines: {node: '>=14.0.0', slidev: '>=0.19.3'}
+    dependencies:
+      '@slidev/types': 0.22.7
+      codemirror-theme-vars: 0.1.1
+      prism-theme-vars: 0.2.4
+      theme-vitesse: 0.1.14
+    dev: false
+
+  /@slidev/theme-default/0.21.2:
+    resolution: {integrity: sha512-neUucFs2YrRZZd73QwvLTyRG/o1nerDFUR5t8YAmXVLTMzWfY71flQ6aAhjYf+WjsozYsOHcxi/pZtIzZ4VhTQ==}
+    engines: {node: '>=14.0.0', slidev: '>=0.19.2'}
     dependencies:
       '@slidev/types': 0.22.7
       codemirror-theme-vars: 0.1.1
