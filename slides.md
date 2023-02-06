@@ -67,7 +67,7 @@ Feedback is the center of Agile
 
 ---
 layout: image-right
-image: 'kiss.png'
+image: '/kiss.png'
 ---
 
 ## Easy to read, understand and maintain
@@ -77,10 +77,9 @@ image: 'kiss.png'
 <div v-click="2">
 For example: 
 
-- Measure cyclomatic complexity
-- For pipelines
-  - One pipeline operation on one line
-  - Type hints on pipeline lengths
+- Structural simplicity (less `if`s and `for`s)
+- Architectural simplicity
+
 </div>
 
 ---
