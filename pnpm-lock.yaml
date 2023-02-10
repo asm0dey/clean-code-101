@@ -8,7 +8,7 @@ specifiers:
   '@iconify-json/skill-icons': ^1.1.1
   '@iconify-json/twemoji': ^1.1.10
   '@iconify-json/vscode-icons': ^1.1.21
-  '@slidev/cli': ^0.40.0
+  '@slidev/cli': ^0.40.2
   '@slidev/theme-apple-basic': ^0.20.0
   '@slidev/theme-default': ^0.21.2
   playwright-chromium: ^1.30.0
